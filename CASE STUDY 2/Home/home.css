@@ -1,0 +1,58 @@
+body{
+    background-image: url(https://e0.pxfuel.com/wallpapers/292/27/desktop-wallpaper-dark-background-brown-minimal-minimal-thumbnail.jpg);
+    background-size: cove;
+}
+.tag{
+    column-gap: 20px;
+}
+.tag1{
+    background-color: #f7f6ff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.tag1:hover{
+    background-color: rgb(196, 196, 196);
+    border: 2px solid black;
+}
+.tag2{
+    background-color: #f7f6ff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.tag2:hover{
+    background-color: rgb(196, 196, 196);
+    border: 2px solid black;
+}
+.todo-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#todoList{
+    list-style-type: none;
+    padding: 0;
+}
+
+#todoList li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}
+#todoList li:hover{
+    transform: scale(1.02);
+}

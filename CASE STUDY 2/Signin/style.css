@@ -1,0 +1,26 @@
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/05/13/59/72/240_F_513597277_YYqrogAmgRR9ohwTUnOM784zS9eYUcSk.jpg);
+    background-size: cover;
+}
+.valid{
+    width: 35%;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    opacity: .75;
+}
+button{
+    width: 100%;
+    padding: 5px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+}
+button:hover{
+    background-color: #02c0ff;
+}
+@media screen and (max-width: 800px) {
+    .valid{
+        width: 100%;
+      }
+  }
